@@ -34,6 +34,8 @@ It follows a modular and scalable architecture separating:
 
 ## 🏗 System Architecture
 
+![System Architecture](docs/system-architecture.png)
+
 High-Level Flow:
 
 User  
