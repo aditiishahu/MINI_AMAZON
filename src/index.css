@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #EAEDED;
+}
+
+*:focus-visible {
+  outline: 2px solid #FF9900;
+  outline-offset: 2px;
+}
